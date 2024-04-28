@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #494545;
+}
+
+.Kort {
+    width: 300px;
+    height: 200px;
+    background-color: #eea435;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.Kort-Nummer {
+    font-size: 25px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 360px; 
+    right: 620px;
+    color:#000000
+}
+.expiry-datum {
+    font-size: 14px;
+    color: #010101;
+    position: absolute;
+    top: 450px;
+    right: 800px;
+
+}
+
+
+.Kort-owner {
+    font-size: 14px;
+    color: #010101;
+    position: absolute;
+    top: 460px;
+    right: 600px;
+
+}
+
+.chip {
+    width: 50px;
+    height: 40px;
+    background-color: #b0bec5;
+    border-radius: 5px;
+    position: absolute;
+    top: 310px;
+    right: 830px;
+}
+
+.Swedbank {
+    position: absolute;
+    font-size: 30px;
+    top: 275px;
+    right: 600px;
+    color:antiquewhite;
+
+}
+
+.Credit {
+
+    position: absolute;
+    font-size: 15px;
+    top: 270px;
+    right: 850px;
+    color: white; 
+
+}
+
+

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #494545;
+}
+
+.Kort {
+    width: 300px;
+    height: 200px;
+    background-color: #eea435;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.CVV {
+
+position: absolute;
+top: 430px;
+right: 840px;
+
+}
+
+
+.Linje {
+
+position: absolute;
+top: 320px;
+right: 574px;
+width: 22.85%;
+height: 50px;
+background-color: #000000;
+
+}
+
+.Linje2 {
+
+    position: absolute;
+    top: 390px;
+    right: 595px;
+    width: 20%;
+    height: 25px;
+    background-color: #ffffff;
+    
+    
+    }
